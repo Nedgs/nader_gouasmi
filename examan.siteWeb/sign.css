@@ -1,0 +1,189 @@
+body{
+	padding:0;
+	margin:0;
+	height: 100%;
+	background-image: url(img/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+
+.container {
+	
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+	padding: 21px;
+	background-color: white;
+	background-size:cover;
+	height: 600px;
+	width: 350px;
+	border:transparent;
+	border-radius: 8px;
+	
+}
+
+:root {
+	--omrs-color-ink-lowest-contrast: rgba(47, 60, 85, 0.18);
+	--omrs-color-ink-low-contrast: rgba(60, 60, 67, 0.3);
+	--omrs-color-ink-medium-contrast: rgba(19, 19, 21, 0.6);
+	--omrs-color-interaction: #1e4bd1;
+	--omrs-color-interaction-minus-two: rgba(73, 133, 224, 0.12);
+	--omrs-color-danger: #b50706;
+	--omrs-color-bg-low-contrast: #eff1f2;
+	--omrs-color-ink-high-contrast: #121212;
+	--omrs-color-bg-high-contrast: #ffffff;
+	
+}
+/** END: Non Openmrs CSS **/
+div.omrs-input-group {
+  margin-bottom: 0.5rem;
+  position: relative;
+  width: 20.4375rem;
+}
+div.omrs-input-group1 {
+  margin-bottom: 0.5rem;
+  position: relative;
+  width: 8.4375rem;
+}
+
+/* Input*/
+.omrs-input-underlined > input,
+.omrs-input-filled > input {
+	border: none;
+	border-bottom: 0.125rem solid var(--omrs-color-ink-medium-contrast);
+	width: 100%;
+	height: 2rem;
+	font-size: 1.0625rem;
+	padding-left: 0.875rem;
+	line-height: 147.6%;
+	padding-top: 0.825rem;
+	padding-bottom: 0.5rem;
+}
+
+.omrs-input-underlined > input:focus,
+.omrs-input-filled > input:focus {
+	outline: none;
+}
+
+.omrs-input-underlined > .omrs-input-label,
+.omrs-input-filled > .omrs-input-label {
+	position: absolute;
+	top: 1.2rem;
+	left: 0.475rem;
+	line-height: 147.6%;
+	color: var(--omrs-color-ink-medium-contrast);
+	
+	
+	transition: top .2s;
+}
+
+.omrs-input-underlined > i,
+.omrs-input-filled > i {
+	position: absolute;
+	top: 1.7rem;
+	right: 0.875rem;
+	font-size: 18px;
+	color:  var(--omrs-color-ink-medium-contrast);
+	
+}
+
+
+
+.omrs-input-underlined > input:focus + .omrs-input-label,
+.omrs-input-underlined > input:valid + .omrs-input-label,
+.omrs-input-filled > input:focus + .omrs-input-label,
+.omrs-input-filled > input:valid + .omrs-input-label {
+	top: 0;
+	font-size: 0.9375rem;
+	margin-bottom: 32px;;
+}
+/*Button Three*/
+
+.button-three {
+    position: relative;
+    background-color: #101211;
+    border: none;
+    height: 40px;
+	width: 115px;
+	color: white;
+	font-family: 'Russo One', sans-serif;
+    border-radius: 12px;
+    margin-left: 105px;
+    margin-top: 60px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.button-three:hover{
+   background:#fff;
+   box-shadow:0px 2px 10px 5px #97B1BF;
+   color:#000;
+}
+
+.button-three:after {
+    content: "";
+    background: #f1c40f;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button-three:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+form{
+	position: relative;
+	top: 40px;
+}
+.sign{
+	margin-top: 150px;
+}
+
+label.remember{
+	display: flex;
+	color: #101211;
+	font-family: 'Saira Semi Condensed', sans-serif;"
+	
+}
+
+#scales{
+	height: 17px;
+	width: 17px;
+	margin-top: 5px;
+}
+.text{
+	font-family: 'Saira Semi Condensed', sans-serif;
+
+	
+}
+.go{
+	font-family: 'Saira Semi Condensed', sans-serif;
+	margin-top: -20px;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #ccaa9f;
+}
+.fas.fa-sign-in-alt{
+	color:black;
+	font-size: 95px;
+	margin-top: 60px;
+	}
+
+
+/*LES MEDIAS*/
+
+
+

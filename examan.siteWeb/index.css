@@ -262,6 +262,7 @@ ul {
 }
 li{
 	padding-top: 20px;
+	font-size: 18px;
 }
 
 ul li:before {
@@ -271,17 +272,20 @@ ul li:before {
 	display: flex;
 	justify-content: center;
 	padding-bottom: 20px;
+
 }
 .blockEXP2{
 	display: flex;
 	justify-content: center;
 	margin-top: 100px;
 	padding-bottom: 20px;
+	
 
 }
 .text{
 	max-width: 600px;
 	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
 }
 .ttr1{
 	position: relative;
@@ -299,10 +303,11 @@ ul li:before {
 	left: 65px;
 	font-size: 16px;
 }
-.nomEXP{
+div.nomEXP{
 	font-family: 'Forum', cursive;
-	font-size: 24px;
+	font-size: 26px;
 	color:#f5ebe1;
+	font-weight: bold;
 }
 span{
 	color: #F8B071;
@@ -325,20 +330,17 @@ span{
 	width: 300px;
 	padding: 16px;
 	border-radius: 22px;
-
 }*/
 /*.block1{
 	display: flex;
 	justify-content: center;
 	
-
 	
 }
 .block2{
 	display: flex;
 	justify-content: center;
 	
-
 	
 } 
 .blockimg{
@@ -351,7 +353,6 @@ span{
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
-
 }   
 .block1 div:hover img {
 	-webkit-transform: scale(1.3);
@@ -728,7 +729,7 @@ textarea{
 		}
 		
 		#page5{
-			margin-top: -65px;
+			margin-top: 50px;
 			
 			
 		}
@@ -987,6 +988,7 @@ textarea{
 			top: 50px;
 			left: 20px;
 		}
+	
 
 
 }
@@ -1045,11 +1047,282 @@ textarea{
 
 
 }
+@media screen and (max-width: 722px){
 
 
+	p.firstP{
+		display: none;
+	}
+	
+	div.contenu{
+		
+		display: block;
+
+		padding-bottom:200px;
+		justify-content: center;
+		height: 100%;
+		width: 100%;
+
+}
+
+	.presentation{
+		position: relative;
+		top: 250px;
+		left: 0px;
+		
+	}
+	#img{
+		position: relative;
+		top: 270px;
+		display: flex;
+		justify-content: center;
+		
+		
+		
+	}
+
+	.image1{
+		border-radius: 30px;
+		height:210px;
+		width:250px;
+		}
+	
+	#me{
+		font-size: 50px;
+		position: relative;
+		top: -30px;
+		display: flex;
+		justify-content: center;
+		font-family: 'Saira Semi Condensed', sans-serif;
+		color: #f5ebe1;
+	}
+	.specialite{
+		display: flex;
+		justify-content: center;
+		font-size: 23px;
+		position: relative;
+		top: -40px;
+		font-family: 'Forum', cursive;
+		color:  #F8B071;
+	}
+	.sub-main{
+	
+		display: flex;
+		justify-content: center;
+		width: 80%;
+		/*margin:22px;*/
+		/*float: left;*/
+	
+		/*margin-left: 80px;*/
+		}
+
+	button.button-two{
+		display: flex;
+		justify-content: center;
+
+		  color: white;
+		  font-size:25px;
+		  font-family: 'Russo One', sans-serif;
+		 /* margin-top: 50px;*/
+		  
+		  margin-left: -40px;
+
+
+	 
+	}
+	.button-two {
+	  color: white;
+	  border-radius: 12px;
+	  background-color:#30b353;
+	  border: none;
+	  height: 60px;
+	  width: 170px;
+	  transition: all 0.5s;
+	}
+	.button-two span {
+		font-size: 27px;
+		color: white;
+		cursor: pointer;
+		display: flex;
+		justify-content: center;
+		position: relative;
+		transition: 0.5s;
+		font-family: 'Russo One', sans-serif;
+	}
+	/*----LA PAGE COMPETANCES---*/
+		#block{
+		display: block;
+		justify-content: center;
+		position: relative;
+		top: 150px;
+		
+
+		
+
+		}
+		.blockA{
+			display: block;
+			align-items: center;
+			position: relative;
+			right: 0px;
+			
+		}
+		.blockB{
+			position: relative;
+			left: 0px;
+			
+		}
+		.blk{
+			display: flex;
+			justify-content: center;
+		}
+		p.p{
+
+			position: relative;
+			right: 10px;
+			top: -5px;
+
+
+		}
+		.blockEXP1{
+			display: block;
+			justify-content: center;
+			padding-bottom: 20px;
+		}
+		.blockEXP2{
+			display: block;
+			justify-content: center;
+			margin-top: 100px;
+			padding-bottom: 20px;
+
+		}
+		.text{
+			max-width: 200px;
+			font-family: 'Quicksand', sans-serif;
+			display: flex;
+			justify-content: center;
+			/*margin-left: 50px;*/
+			}
+		.ttr1{
+			position: relative;
+			font-size: 35px;
+			left: 0px;
+		}
+		.ttr2{
+			position: relative;
+			top: 30px;
+			color:#f5ebe1;
+		}
+		.date{
+			color:#f5ebe1;
+			position: relative;
+			left: 0px;
+			font-size: 16px;
+			display: flex;
+			justify-content: center;
+		}
+		div.nomEXP{
+			font-family: 'Forum', cursive;
+			font-size: 24px;
+			color:#f5ebe1;
+			display: flex;
+			justify-content: center;
+		}
+		span{
+			color: #F8B071;
+			font-size: 22px;
+		}
+		div.respon{
+			position: relative;
+			top: 50px;
+			padding-bottom: 50px;
+			display: flex;
+			justify-content: center;
+		}
+		/*----le images du portfolio------*/
+		.flip-card {
+
+			 /* float: left;*/
+			  background-color: transparent;
+			  width: 400px;
+			  height: 200px;
+			  /*border: 1px solid #f1f1f1;*/
+			  perspective: 1000px; 
+			  /*margin-right: 50px;*/
+			  margin-top: 20px;
+			 /* margin-left: 15%;*/
+			  /*padding: -20px;*/
+			 /* padding-right:50px;*/
+			 padding:0px 25px 0px 25px;
+
+			}
+			.contenair{
+				display: none;
+			}
+			.allblock{
+			position: relative;
+			top: 0px;
+			left: 0px;
+		}
+			
 
 
 }
+@media screen and (max-width: 540px){
+	.txt{
+		max-width: 200px;
+	}
+}
+@media screen and (max-width: 470px){
+	/*.contenair{
+		position: relative;
+		left: 0px;
+		top: 30px;
+	}*/
+	.blockf input{
+		height: 30px;
+		width: 150px;
+	}
+	.sujet input{
+		height: 30px;
+		width: 316px;
+	}
+	textarea{
+		width: 316px;
+		height: 90px;
+		border-radius: 5px;
+	}
+	.env{
+		height: 40px;
+		width: 100px;
+		border-radius: 10px;
+		background-color: #b5b2aa;
+		border-color:  #b5b2aa;
+		color: #242120;
+		font-family: 'Lilita One', cursive;
+		font-size: 22px;
+		font-weight: bold;
+		padding-bottom: 8px;
+	}
+	.allblock{
+			position: relative;
+			top: 0px;
+			left: 0px;
+		}
+
+}
+@media screen and (max-width: 427px){
+	#logo{
+		display: none;
+	}
+}
+
+
+
+
+
+
+
 
 
 

@@ -42,7 +42,7 @@ else{
 		<div class="container">
 
 			<p class="mssg"><?= $message ?></p>	
-			<a href="index1.html"> HOME</a>		
+			<a href="index.html"> HOME</a>		
 
 		</div>
 	</center>
